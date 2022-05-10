@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+
+        <img src="../challenge/image/logoalura.png" alt="logo da alura que tem como figura a letra a">
+    </header>
+    <main>
+        <section>
+            <textarea class="texto" name="" id="" cols="25" rows="6" placeholder="digite seu texto"></textarea>
+            <div class="informacao">
+                <img class= "exclamacao"src="../challenge/image/exclamation.png" alt="ponto de exclamação">
+                <h6 class="note">Apenas letras minúsculas e sem acento</h6>
+            </div>
+            <div class="botoes">
+                <button class="encriptar" onclick="btnEncriptar()">Criptografar</button>
+                <button class="desencriptar" onclick="btnDesincriptar()">Descriptografar</button>
+
+            </div>
+        </section>
+        
+            <section class="section2">
+                
+                <textarea class="mensagem" name="" id="" cols="15" rows="7" ></textarea>
+                
+                <h3 id="msg"></h3>
+                <div id="copiar"></div>
+            </section>
+        
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
